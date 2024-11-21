@@ -1,5 +1,7 @@
 package webelements;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,7 +17,11 @@ public class HandlingRadioButton {
 		System.out.println(link.getText());
 		link.click();
 		
-		driver.findElement(By.xpath("//input[@value='1']")).click();
+		//driver.findElement(By.xpath("//input[@value='1']")).click();
+		
+		List<WebElement> allGenderValues = driver.findElements(By.xpath("//input[@id='sex']"));
+		allGenderValues.get(1).click();
+		
 
 	}
 
