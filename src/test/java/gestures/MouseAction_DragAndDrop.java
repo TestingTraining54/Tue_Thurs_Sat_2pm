@@ -15,9 +15,18 @@ public class MouseAction_DragAndDrop {
 		driver.get("https://jqueryui.com/resources/demos/droppable/default.html");
 		
 		WebElement source = driver.findElement(By.id("draggable"));
+		WebElement destination = driver.findElement(By.id("droppable"));
 		
 		Actions act= new Actions(driver);
+		act.dragAndDrop(source, destination).perform();
 		
+		String actualText=driver.findElement(By.xpath("//*[@id=\"droppable\"]/p")).getText();
+		if(actualText.equals("Dropped!")) {
+			System.out.println("Pass");
+		}
+		else {
+			System.out.println("Failed");
+		}
 	
 	}
 }
