@@ -1,16 +1,8 @@
-INFO    2024-12-07 15:07:53,024 [main] ReadProperties.ReadPropertiesDemo  - Config file has been loaded
-INFO    2024-12-07 15:07:53,027 [main] ReadProperties.ReadPropertiesDemo  - OR file has been loaded
-INFO    2024-12-07 15:07:56,804 [main] ReadProperties.ReadPropertiesDemo  - Chrome Browser has been launched
-INFO    2024-12-07 15:07:56,959 [main] ReadProperties.ReadPropertiesDemo  - Browser has been maximized
-INFO    2024-12-07 15:07:59,081 [main] ReadProperties.ReadPropertiesDemo  - Launched url: https://facebook.com
-INFO    2024-12-07 15:07:59,353 [main] ReadProperties.ReadPropertiesDemo  - Entered username with keyword as: email with value as testing123@gmail.com
-INFO    2024-12-07 15:07:59,651 [main] ReadProperties.ReadPropertiesDemo  - Entered password with keyword as: pass with value as password123
-ERROR   2024-12-07 15:08:09,796 [main] ReadProperties.ReadPropertiesDemo  - no such element: Unable to locate element: {"method":"xpath","selector":"//button[starts-with(@id,'u_0_545')]"}
-  (Session info: chrome=131.0.6778.109)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0a08e7fde235f067a11a7bfc36b4134c, findElement {using=xpath, value=//button[starts-with(@id,'u_0_545')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\91733\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59917}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59917/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0a08e7fde235f067a11a7bfc36b4134c
+INFO    2024-12-10 17:10:09,761 [main] ReadProperties.ReadPropertiesDemo  - Config file has been loaded
+INFO    2024-12-10 17:10:09,765 [main] ReadProperties.ReadPropertiesDemo  - OR file has been loaded
+INFO    2024-12-10 17:10:13,802 [main] ReadProperties.ReadPropertiesDemo  - Chrome Browser has been launched
+INFO    2024-12-10 17:10:13,947 [main] ReadProperties.ReadPropertiesDemo  - Browser has been maximized
+INFO    2024-12-10 17:10:15,864 [main] ReadProperties.ReadPropertiesDemo  - Launched url: https://facebook.com
+INFO    2024-12-10 17:10:16,178 [main] ReadProperties.ReadPropertiesDemo  - Entered value into fields with keyword as: emailTxtbox_ID with value as: testing@gmail.com
+INFO    2024-12-10 17:10:16,676 [main] ReadProperties.ReadPropertiesDemo  - Entered value into fields with keyword as: passwordTxtbox_NAME with value as: testing123
+INFO    2024-12-10 17:10:17,518 [main] ReadProperties.ReadPropertiesDemo  - Clicked on button with keyword as : loginBtn_XPATH
