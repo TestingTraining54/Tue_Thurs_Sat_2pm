@@ -1,5 +1,6 @@
 package testngTestcases;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -40,13 +41,14 @@ public class Testcase1 {
 	}
 	
 	
-	@Test(priority=-2)
+	@Test(priority=-2,dependsOnMethods = {"doUserReg"})
 	public void doLogin() {
 		System.out.println("Login");
 	}
 
-	@Test(priority=-11)
+	@Test(priority=-11,groups = {"smoke"})
 	public void doUserReg() {
 		System.out.println("User Registration");
+		//Assert.fail();
 	}
 }

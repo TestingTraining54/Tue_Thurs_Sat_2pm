@@ -17,7 +17,7 @@ public class Testcase2 {
 	 * sAssert.assertAll();
 	 * 
 	 */
-	@Test
+	@Test(groups= {"Regression"})
 	void launchingBrowser() {
 		String expectedtitle="facebook.com";
 		String actualTitle = "gmail.com";
