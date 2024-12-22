@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngTestcases.BrowserCompatibility">
+      <class name="testngTestcases.FacebookLogin">
         <methods>
-          <include name="openBrowser"/>
-          <include name="closeBrowser"/>
+          <include name="doFbLogin"/>
+          <include name="tearDown"/>
+          <include name="setUP"/>
         </methods>
-      </class> <!-- testngTestcases.BrowserCompatibility -->
+      </class> <!-- testngTestcases.FacebookLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
