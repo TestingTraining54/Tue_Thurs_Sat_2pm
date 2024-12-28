@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngTestcases.FacebookLogin">
+      <class name="extentReports.ExtentReportsDemo">
         <methods>
-          <include name="doFbLogin"/>
+          <include name="getStatus"/>
           <include name="tearDown"/>
-          <include name="setUP"/>
+          <include name="setReport"/>
+          <include name="doUserReg"/>
+          <include name="doSkip"/>
         </methods>
-      </class> <!-- testngTestcases.FacebookLogin -->
+      </class> <!-- extentReports.ExtentReportsDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -54,6 +54,7 @@ public class ReadPropertiesDemo {
 		
 		ele.sendKeys(value);
 		log.info("Entered value into fields with keyword as: " + keyword + " with value as: " + value);
+	
 	}
 	
 	public static void click(String keyword) {
